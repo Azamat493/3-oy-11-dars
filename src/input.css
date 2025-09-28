@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --font-abeeze: "ABeeZee", sans-serif;
+  --second-DmSans: "DM Sans", sans-serif;
+  --third-roboto: "Roboto", sans-serif;
+  --font3-taprom: "Taprom", sans-serif;
+  --font4-doppio: "Doppio One", sans-serif;
+  --font5-abhaya: "Abhaya Libre", sans-serif;
+  --font6-montserrat: "Montserrat", sans-serif;
+}
+@media (min-width: 768px) and (max-width: 870px) {
+  .card {
+    width: 360px;
+  }
+}
+@media (max-width: 1039px) {
+  .card2 {
+    display: none;
+  }
+  .card3 {
+    display: flex;
+  }
+}
+@media (min-width: 1039px) {
+  .card2 {
+    display: flex;
+  }
+  .card3 {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .card3 {
+    display: none;
+  }
+}

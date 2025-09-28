@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Taprom&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Doppio+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/output.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flowbite@1.7.1/dist/flowbite.min.css"
+    />
+  </head>
+  <body class="bg-[#131218]">
+    <header class="">
+      <div
+        class="border border-solid max-w-[1600px] mx-auto border-[#242424] py-2 px-6 flex justify-center gap-[15px] md:gap-0 md:justify-between items-center flex-wrap"
+      >
+        <div class="flex items-center gap-6">
+          <span
+            class="font-normal text-[13px] text-center text-[rgba(255,255,255,0.13)] font-abeeze"
+            >Ваш город:
+            <strong
+              class="font-normal text-[13px] text-center text-[rgba(255,255,255,0.6)] font-abeeze"
+              >Самара</strong
+            ></span
+          >
+        </div>
+        <div
+          class="flex items-center m-[10px_0px] gap-6 ml-0 md:m-0 md:ml-[200px]"
+        >
+          <a
+            href="https://www.whatsapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="hover:opacity-80 transition duration-200 hover:scale-105"
+          >
+            <img src="./images/ватс 1.svg" alt="" />
+          </a>
+          <a
+            href="https://t.me/Tolko_Nenado"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="hover:opacity-80 transition duration-200 hover:scale-105"
+          >
+            <img src="./images/телеграмм.svg" alt="" />
+          </a>
+          <a
+            href="https://vk.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="hover:opacity-80 transition duration-200 hover:scale-105"
+          >
+            <img src="./images/вк.svg" alt="" />
+          </a>
+          <a
+            href="https://www.viber.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="hover:opacity-80 transition duration-200 hover:scale-105"
+          >
+            <img src="./images/вайбер.svg" alt="" />
+          </a>
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="hover:opacity-80 transition duration-200 hover:scale-105"
+          >
+            <img src="./images/ютуб.svg" alt="" />
+          </a>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="hover:opacity-80 transition duration-200 hover:scale-105"
+          >
+            <img src="./images/инста 1.svg" alt="" />
+          </a>
+        </div>
+        <div
+          class="flex flex-col sm:flex-row items-center justify-center gap-[10px]"
+        >
+          <div class="flex items-center gap-[10px]">
+            <img src="./images/icons8-положить-трубку-100 1.svg" alt="" />
+            <span
+              class="font-normal text-sm text-[rgba(255,255,255,0.6)] font-abeeze whitespace-nowrap"
+            >
+              8 (800) 100 26 80
+            </span>
+          </div>
+          <div
+            class="font-normal text-sm text-[rgba(255,255,255,0.6)] font-abeeze whitespace-nowrap"
+          >
+            ЕЖЕДНЕВНО 10:00–20:00
+          </div>
+        </div>
+      </div>
+      <div
+        class="py-6 px-6 flex justify-around items-center max-w-[1600px] mx-auto"
+      >
+        <div
+          class="hidden md:flex items-center gap-2 text-gray-300 cursor-pointer hover:text-white hover:scale-105 transition duration-200"
+        >
+          <img src="./images/поиск 1.svg" alt="" />
+          <span>поиск</span>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <img src="./images/Screenshot_6.png" alt="" />
+        </div>
+        <div class="flex items-center gap-6">
+          <div class="hidden md:flex items-center gap-6">
+            <button
+              class="cursor-pointer hover:scale-110 transition duration-200"
+            >
+              <img src="./images/избранное.svg" alt="" />
+            </button>
+            <button
+              class="cursor-pointer hover:scale-110 transition duration-200"
+            >
+              <img src="./images/корзина.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="md:hidden px-6 pb-4 flex items-center justify-around gap-4">
+        <div
+          class="flex items-center gap-2 text-gray-300 cursor-pointer hover:text-white hover:scale-105 transition duration-200"
+        >
+          <img src="./images/поиск 1.svg" alt="" />
+          <span>поиск</span>
+        </div>
+
+        <div class="block md:hidden">
+          <input type="checkbox" id="mobile-menu-toggle" class="hidden peer" />
+          <label
+            for="mobile-menu-toggle"
+            class="cursor-pointer p-2 rounded-md bg-white border border-gray-300 z-50 relative"
+          >
+            <i class="fas fa-bars text-lg"></i>
+          </label>
+          <label
+            for="mobile-menu-toggle"
+            class="fixed inset-0 z-40 bg-transparent cursor-pointer peer-checked:block hidden"
+          ></label>
+          <div
+            class="fixed top-0 right-0 z-50 w-full max-w-xs h-screen bg-[#1a1725] shadow-xl p-6 pt-16 overflow-y-auto transform translate-x-full peer-checked:translate-x-0 transition-transform duration-300 ease-in-out"
+          >
+            <label
+              for="mobile-menu-toggle"
+              class="absolute top-4 right-4 cursor-pointer p-2 rounded-full bg-gray-100"
+            >
+              <i class="fas fa-times text-lg"></i>
+            </label>
+            <nav class="mt-8 space-y-4">
+              <a
+                href="#"
+                class="block px-4 py-2 rounded-md text-white hover:bg-gray-100 transition"
+                >Каталог</a
+              >
+              <a
+                href="#"
+                class="block px-4 py-2 rounded-md text-white hover:bg-gray-100 transition"
+                >Услуги</a
+              >
+              <a
+                href="#"
+                class="block px-4 py-2 rounded-md text-white hover:bg-gray-100 transition"
+                >О нас</a
+              >
+              <a
+                href="#"
+                class="block px-4 py-2 rounded-md text-white hover:bg-gray-100 transition"
+                >Доставка</a
+              >
+              <a
+                href="#"
+                class="block px-4 py-2 rounded-md text-white hover:bg-gray-100 transition"
+                >Отзывы</a
+              >
+              <a
+                href="#"
+                class="block px-4 py-2 rounded-md text-white hover:bg-gray-100 transition"
+                >Обучение</a
+              >
+              <a
+                href="#"
+                class="block px-4 py-2 rounded-md text-white hover:bg-gray-100 transition"
+                >Обучение</a
+              >
+              <a
+                href="#"
+                class="block px-4 py-2 rounded-md text-white hover:bg-gray-100 transition"
+                >Контакты</a
+              >
+              <a
+                href="#"
+                class="block px-4 py-2 rounded-md text-white hover:bg-gray-100 transition"
+                >ОПТ</a
+              >
+            </nav>
+          </div>
+        </div>
+        <div class="flex items-center gap-6">
+          <button
+            class="cursor-pointer hover:scale-110 transition duration-200"
+          >
+            <img src="./images/избранное.svg" alt="" />
+          </button>
+          <button
+            class="cursor-pointer hover:scale-110 transition duration-200"
+          >
+            <img src="./images/корзина.svg" alt="" />
+          </button>
+        </div>
+      </div>
+      <nav class="hidden md:block px-6 pb-4">
+        <ul
+          class="flex justify-center gap-6 uppercase tracking-wider font-normal text-sm text-center text-white font-abeeze"
+        >
+          <li><a href="#" class="hover:text-orange-400">Каталог</a></li>
+          <li><a href="#" class="hover:text-orange-400">Услуги</a></li>
+          <li><a href="#" class="hover:text-orange-400">О нас</a></li>
+          <li><a href="#" class="hover:text-orange-400">Доставка</a></li>
+          <li><a href="#" class="hover:text-orange-400">Отзывы</a></li>
+          <li><a href="#" class="hover:text-orange-400">Обучение</a></li>
+          <li><a href="#" class="hover:text-orange-400">Контакты</a></li>
+          <li><a href="#" class="hover:text-orange-400">ОПТ</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section
+        class="max-w-[1600px] w-full mt-[20px] md:mt-0 mx-auto h-[300px] sm:h-[400px] relative bg-[url('/images/IMG.svg')] bg-no-repeat bg-center bg-cover flex items-center justify-center"
+      >
+        <div
+          class="text-[#8f8f8f] text-left translate-x-2 sm:translate-x-8 md:translate-x-16 translate-y-4 sm:translate-y-6 md:translate-y-10"
+        >
+          <h1
+            class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold font-abeeze"
+          >
+            Takamine
+          </h1>
+          <p
+            class="text-sm sm:text-base md:text-lg mb-2 sm:mb-4 font-abeeze opacity-80"
+          >
+            гитара
+          </p>
+          <p class="text-xs sm:text-sm mb-[2px] font-abeeze opacity-70">
+            винтажная 12-струнная
+          </p>
+          <p class="text-xs sm:text-sm mb-2 sm:mb-4 font-abeeze opacity-70">
+            GJ72CE-12BSB
+          </p>
+          <a
+            href="#"
+            class="inline-block bg-[rgba(216,119,0,0.74)] hover:bg-orange-600 text-white font-normal text-xs sm:text-sm font-abeeze py-1.5 sm:py-2 px-3 sm:px-6 rounded-[5px] transition duration-200"
+          >
+            подробнее
+          </a>
+        </div>
+        <div
+          class="absolute right-2 sm:right-6 md:right-12 lg:right-16 top-1/2 transform -translate-y-1/2 sm:block group cursor-pointer"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-10 w-10 sm:h-14 sm:w-14 md:h-16 md:w-16 lg:h-20 lg:w-20 text-white transition duration-300 group-hover:text-yellow-400 transform group-hover:scale-110"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 5l7 7-7 7"
+            />
+          </svg>
+        </div>
+      </section>
+
+      <section
+        class="max-w-[1600px] w-full mx-auto mt-0 mb-0 md:mb-[620px] md:mt-[150px] relative"
+      >
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 justify-center gap-[20px] w-max mx-auto h-auto md:h-[305px] lg:h-[400px]"
+        >
+          <div
+            class="relative w-[320px] sm:w-[520px] md:w-[420px] xl:w-[520px] card h-[250px] sm:h-[305px] hidden md:block"
+          >
+            <div class="absolute inset-0 bg-black/50 z-10"></div>
+            <div
+              class="w-full h-full bg-[url('/images/IMG2.svg')] bg-no-repeat bg-center bg-cover"
+            ></div>
+            <div
+              class="absolute inset-0 flex flex-col items-center justify-center z-20 px-4"
+            >
+              <img src="./images/icons8-медиатор-100-2 1.svg" alt="" />
+              <h2
+                class="font-normal text-2xl text-center text-white font-abeeze mt-[40px]"
+              >
+                гитары
+              </h2>
+            </div>
+          </div>
+          <div
+            class="relative w-[320px] sm:w-[520px] md:w-[420px] xl:w-[520px] card h-[250px] sm:h-[305px] hidden md:block"
+          >
+            <div class="absolute inset-0 bg-black/50 z-10"></div>
+            <div
+              class="w-full h-full bg-[url('/images/IMG3.svg')] bg-no-repeat bg-center bg-cover"
+            ></div>
+            <div
+              class="absolute inset-0 flex flex-col items-center justify-center z-20 px-4"
+            >
+              <img src="./images/icons8-медиатор-100-2 1.svg" alt="" />
+              <h2
+                class="font-normal text-2xl text-center text-white font-abeeze mt-[40px]"
+              >
+                укулеле
+              </h2>
+            </div>
+          </div>
+          <div
+            class="relative w-[320px] sm:w-[520px] md:w-[420px] xl:w-[520px] card h-[250px] sm:h-[305px] hidden md:block z-10"
+          >
+            <div class="absolute inset-0 bg-black/50 z-10"></div>
+            <div
+              class="w-full h-full bg-[url('/images/IMG4.svg')] bg-no-repeat bg-center bg-cover"
+            ></div>
+            <div
+              class="absolute inset-0 flex flex-col items-center justify-center z-20 px-4"
+            >
+              <img src="./images/icons8-медиатор-100-2 1.svg" alt="" />
+              <h2
+                class="font-normal text-2xl text-center text-white font-abeeze mt-[40px]"
+              >
+                аксесуары
+              </h2>
+            </div>
+          </div>
+          <div
+            class="relative w-[320px] sm:w-[520px] md:w-[420px] xl:w-[520px] card h-[250px] sm:h-[305px] hidden md:block z-10"
+          >
+            <div class="absolute inset-0 bg-black/50 z-10"></div>
+            <div
+              class="w-full h-full bg-[url('/images/IMG5.svg')] bg-no-repeat bg-center bg-cover"
+            ></div>
+            <div
+              class="absolute inset-0 flex flex-col items-center justify-center z-20 px-4"
+            >
+              <img src="./images/icons8-медиатор-100-2 1.svg" alt="" />
+              <h2
+                class="font-normal text-2xl text-center text-white font-abeeze mt-[40px]"
+              >
+                струны
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-full hidden md:flex h-[520px] lg:h-[550px] bg-[#cc7408] z-0 mt-[50px] absolute justify-center items-end"
+        >
+          <div>
+            <div
+              class="flex items-center justify-center gap-[30px] sm:gap-[50px] flex-wrap px-4 card2"
+            >
+              <img
+                src="./images/603885812efdf577dc1905406b95bb71-removebg-preview 1.svg"
+                alt=""
+              />
+              <img src="./images/б3 1.svg" alt="" />
+              <img src="./images/Ð±13-removebg-preview 1.svg" alt="" />
+              <img src="./images/б12 1.svg" alt="" />
+              <img src="./images/б17 1.svg" alt="" />
+            </div>
+            <div
+              class="flex items-center justify-center gap-[30px] sm:gap-[50px] flex-wrap px-4 mt-4 card2"
+            >
+              <img src="./images/Ð±16-removebg-preview 1.svg" alt="" />
+              <img src="./images/б10 1.svg" alt="" />
+              <img src="./images/_15-removebg-preview 1.svg" alt="" />
+              <img src="./images/б11 1.svg" alt="" />
+              <img src="./images/Ð±5-removebg-preview 1.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-full hidden md:flex h-[350px] sm:h-[498px] md:h-[520px] lg:h-[550px] bg-[#cc7408] z-0 mt-[50px] sm:mt-[70px] absolute justify-center items-end"
+        >
+          <div>
+            <div
+              class="flex items-center justify-center gap-[30px] sm:gap-[50px] flex-wrap px-4 card2"
+            >
+              <img
+                src="./images/603885812efdf577dc1905406b95bb71-removebg-preview 1.svg"
+                alt=""
+              />
+              <img src="./images/б3 1.svg" alt="" />
+              <img src="./images/Ð±13-removebg-preview 1.svg" alt="" />
+              <img src="./images/б12 1.svg" alt="" />
+              <img src="./images/б17 1.svg" alt="" />
+            </div>
+            <div
+              class="flex items-center justify-center gap-[30px] sm:gap-[50px] flex-wrap px-4 mt-4 card2"
+            >
+              <img src="./images/Ð±16-removebg-preview 1.svg" alt="" />
+              <img src="./images/б10 1.svg" alt="" />
+              <img src="./images/_15-removebg-preview 1.svg" alt="" />
+              <img src="./images/б11 1.svg" alt="" />
+              <img src="./images/Ð±5-removebg-preview 1.svg" alt="" />
+            </div>
+            <div>
+              <div
+                class="flex items-center justify-center gap-[30px] sm:gap-[50px] flex-wrap px-4 card3"
+              >
+                <img
+                  src="./images/603885812efdf577dc1905406b95bb71-removebg-preview 1.svg"
+                  class="w-full max-w-[100px] h-auto object-contain"
+                />
+                <img
+                  src="./images/б3 1.svg"
+                  class="w-full max-w-[100px] h-auto object-contain"
+                />
+                <img
+                  src="./images/Ð±13-removebg-preview 1.svg"
+                  class="w-full max-w-[100px] h-auto object-contain"
+                />
+                <img
+                  src="./images/б12 1.svg"
+                  class="w-full max-w-[100px] h-auto object-contain"
+                />
+                <img
+                  src="./images/б17 1.svg"
+                  class="w-full max-w-[100px] h-auto object-contain"
+                />
+              </div>
+              <div
+                class="flex items-center justify-center gap-[30px] sm:gap-[50px] flex-wrap px-4 mt-4 card3"
+              >
+                <img
+                  src="./images/Ð±16-removebg-preview 1.svg"
+                  class="w-full max-w-[100px] h-auto object-contain"
+                />
+                <img
+                  src="./images/б10 1.svg"
+                  class="w-full max-w-[100px] h-auto object-contain"
+                />
+                <img
+                  src="./images/_15-removebg-preview 1.svg"
+                  class="w-full max-w-[100px] h-auto object-contain"
+                />
+                <img
+                  src="./images/б11 1.svg"
+                  class="w-full max-w-[100px] h-auto object-contain"
+                />
+                <img
+                  src="./images/Ð±5-removebg-preview 1.svg"
+                  class="w-full max-w-[100px] h-auto object-contain"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block md:hidden w-full px-4 mt-[40px] pt-0">
+          <div class="grid grid-cols-1 gap-4">
+            <div class="relative w-full h-[220px]">
+              <div class="absolute inset-0 bg-black/50 z-10"></div>
+              <div
+                class="w-full h-full bg-[url('/images/IMG2.svg')] bg-no-repeat bg-center bg-cover"
+              ></div>
+              <div
+                class="absolute inset-0 flex flex-col items-center justify-center z-20 px-4"
+              >
+                <img
+                  src="./images/icons8-медиатор-100-2 1.svg"
+                  alt=""
+                  class="w-[50px] h-[50px]"
+                />
+                <h2
+                  class="font-normal text-xl text-center text-white font-abeeze mt-0"
+                >
+                  гитары
+                </h2>
+              </div>
+            </div>
+            <div class="relative w-full h-[220px]">
+              <div class="absolute inset-0 bg-black/50 z-10"></div>
+              <div
+                class="w-full h-full bg-[url('/images/IMG3.svg')] bg-no-repeat bg-center bg-cover"
+              ></div>
+              <div
+                class="absolute inset-0 flex flex-col items-center justify-center z-20 px-4"
+              >
+                <img
+                  src="./images/icons8-медиатор-100-2 1.svg"
+                  alt=""
+                  class="w-[50px] h-[50px]"
+                />
+                <h2
+                  class="font-normal text-xl text-center text-white font-abeeze mt-0"
+                >
+                  укулеле
+                </h2>
+              </div>
+            </div>
+            <div class="relative w-full h-[220px]">
+              <div class="absolute inset-0 bg-black/50 z-10"></div>
+              <div
+                class="w-full h-full bg-[url('/images/IMG4.svg')] bg-no-repeat bg-center bg-cover"
+              ></div>
+              <div
+                class="absolute inset-0 flex flex-col items-center justify-center z-20 px-4"
+              >
+                <img
+                  src="./images/icons8-медиатор-100-2 1.svg"
+                  alt=""
+                  class="w-[50px] h-[50px]"
+                />
+                <h2
+                  class="font-normal text-xl text-center text-white font-abeeze mt-0"
+                >
+                  аксесуары
+                </h2>
+              </div>
+            </div>
+            <div class="relative w-full h-[220px]">
+              <div class="absolute inset-0 bg-black/50 z-10"></div>
+              <div
+                class="w-full h-full bg-[url('/images/IMG5.svg')] bg-no-repeat bg-center bg-cover"
+              ></div>
+              <div
+                class="absolute inset-0 flex flex-col items-center justify-center z-20 px-4"
+              >
+                <img
+                  src="./images/icons8-медиатор-100-2 1.svg"
+                  alt=""
+                  class="w-[50px] h-[50px]"
+                />
+                <h2
+                  class="font-normal text-xl text-center text-white font-abeeze mt-0"
+                >
+                  струны
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="md:hidden w-full bg-[#cc7408] z-0 mt-4 flex flex-row items-center justify-center py-6"
+        >
+          <div
+            class="flex items-center justify-center gap-[20px] flex-wrap px-4 mb-4"
+          >
+            <img
+              src="./images/603885812efdf577dc1905406b95bb71-removebg-preview 1.svg"
+              alt=""
+              class="w-[60px] h-auto"
+            />
+            <img src="./images/б3 1.svg" alt="" class="w-[60px] h-auto" />
+            <img
+              src="./images/Ð±13-removebg-preview 1.svg"
+              alt=""
+              class="w-[60px] h-auto"
+            />
+            <img src="./images/б12 1.svg" alt="" class="w-[60px] h-auto" />
+            <img src="./images/б17 1.svg" alt="" class="w-[60px] h-auto" />
+          </div>
+          <div
+            class="flex items-center justify-center gap-[20px] flex-wrap px-4"
+          >
+            <img
+              src="./images/Ð±16-removebg-preview 1.svg"
+              alt=""
+              class="w-[60px] h-auto"
+            />
+            <img src="./images/б10 1.svg" alt="" class="w-[60px] h-auto" />
+            <img
+              src="./images/_15-removebg-preview 1.svg"
+              alt=""
+              class="w-[60px] h-auto"
+            />
+            <img src="./images/б11 1.svg" alt="" class="w-[60px] h-auto" />
+            <img
+              src="./images/Ð±5-removebg-preview 1.svg"
+              alt=""
+              class="w-[60px] h-auto"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="text-white py-12 px-4 sm:px-6 max-w-[1600px] mx-auto">
+        <div class="mb-12">
+          <h2
+            class="font-normal text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-[97%] text-center text-white font-abeeze mb-6"
+          >
+            Популярные товары
+          </h2>
+          <div
+            class="max-w-[300px] w-full h-0 border-2 border-solid border-[#d87700] mx-auto"
+          ></div>
+        </div>
+
+        <div class="relative w-full flex justify-center overflow-hidden">
+          <div id="carousel" class="flex transition-transform duration-700">
+            <div
+              class="min-w-[220px] sm:min-w-[240px] md:min-w-[260px] rounded-lg overflow-hidden relative flex flex-col mx-2"
+            >
+              <div
+                class="absolute bottom-0 left-0 w-full h-[60%] bg-[#3b3a40] z-0"
+              ></div>
+              <div class="relative z-10 flex flex-col items-start">
+                <img
+                  src="./images/1.svg"
+                  alt="Enya EUC-MAD"
+                  class="w-full object-cover h-auto"
+                />
+                <div class="p-4 w-full">
+                  <h2
+                    class="font-normal text-sm sm:text-base text-white font-abeeze"
+                  >
+                    Укулеле
+                  </h2>
+                  <h3
+                    class="font-normal text-2xl sm:text-3xl text-white font-abeeze"
+                  >
+                    Enya EUC-MAD
+                  </h3>
+                  <div class="flex items-center justify-between w-full mt-4">
+                    <div>
+                      <h2
+                        class="font-normal text-sm sm:text-base text-[rgba(255,255,255,0.6)] font-abeeze line-through"
+                      >
+                        ₽24 890
+                      </h2>
+                      <h2
+                        class="font-normal text-lg sm:text-xl text-white font-abeeze"
+                      >
+                        ₽24 890
+                      </h2>
+                    </div>
+                    <div class="flex flex-col items-center gap-1">
+                      <h2 class="text-yellow-400">★★★★★</h2>
+                      <h3
+                        class="font-normal text-sm sm:text-base text-center text-[rgba(255,255,255,0.6)] font-abeeze"
+                      >
+                        7 отзывов
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="min-w-[220px] sm:min-w-[240px] md:min-w-[260px] rounded-lg overflow-hidden relative flex flex-col mx-2"
+            >
+              <div
+                class="absolute bottom-0 left-0 w-full h-[60%] bg-[#3b3a40] z-0"
+              ></div>
+              <div class="relative z-10 flex flex-col items-start">
+                <img
+                  src="./images/1.svg"
+                  alt="Enya EUC-MAD"
+                  class="w-full object-cover h-auto"
+                />
+                <div class="p-4 w-full">
+                  <h2
+                    class="font-normal text-sm sm:text-base text-white font-abeeze"
+                  >
+                    Укулеле
+                  </h2>
+                  <h3
+                    class="font-normal text-2xl sm:text-3xl text-white font-abeeze"
+                  >
+                    Enya EUC-MAD
+                  </h3>
+                  <div class="flex items-center justify-between w-full mt-4">
+                    <div>
+                      <h2
+                        class="font-normal text-sm sm:text-base text-[rgba(255,255,255,0.6)] font-abeeze line-through"
+                      >
+                        ₽24 890
+                      </h2>
+                      <h2
+                        class="font-normal text-lg sm:text-xl text-white font-abeeze"
+                      >
+                        ₽24 890
+                      </h2>
+                    </div>
+                    <div class="flex flex-col items-center gap-1">
+                      <h2 class="text-yellow-400">★★★★★</h2>
+                      <h3
+                        class="font-normal text-sm sm:text-base text-center text-[rgba(255,255,255,0.6)] font-abeeze"
+                      >
+                        7 отзывов
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="min-w-[220px] sm:min-w-[240px] md:min-w-[260px] rounded-lg overflow-hidden relative flex flex-col mx-2"
+            >
+              <div
+                class="absolute bottom-0 left-0 w-full h-[60%] bg-[#3b3a40] z-0"
+              ></div>
+              <div class="relative z-10 flex flex-col items-start">
+                <img
+                  src="./images/1.svg"
+                  alt="Enya EUC-MAD"
+                  class="w-full object-cover h-auto"
+                />
+                <div class="p-4 w-full">
+                  <h2
+                    class="font-normal text-sm sm:text-base text-white font-abeeze"
+                  >
+                    Укулеле
+                  </h2>
+                  <h3
+                    class="font-normal text-2xl sm:text-3xl text-white font-abeeze"
+                  >
+                    Enya EUC-MAD
+                  </h3>
+                  <div class="flex items-center justify-between w-full mt-4">
+                    <div>
+                      <h2
+                        class="font-normal text-sm sm:text-base text-[rgba(255,255,255,0.6)] font-abeeze line-through"
+                      >
+                        ₽24 890
+                      </h2>
+                      <h2
+                        class="font-normal text-lg sm:text-xl text-white font-abeeze"
+                      >
+                        ₽24 890
+                      </h2>
+                    </div>
+                    <div class="flex flex-col items-center gap-1">
+                      <h2 class="text-yellow-400">★★★★★</h2>
+                      <h3
+                        class="font-normal text-sm sm:text-base text-center text-[rgba(255,255,255,0.6)] font-abeeze"
+                      >
+                        7 отзывов
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="min-w-[220px] sm:min-w-[240px] md:min-w-[260px] rounded-lg overflow-hidden relative flex flex-col mx-2"
+            >
+              <div
+                class="absolute bottom-0 left-0 w-full h-[60%] bg-[#3b3a40] z-0"
+              ></div>
+              <div class="relative z-10 flex flex-col items-start">
+                <img
+                  src="./images/1.svg"
+                  alt="Enya EUC-MAD"
+                  class="w-full object-cover h-auto"
+                />
+                <div class="p-4 w-full">
+                  <h2
+                    class="font-normal text-sm sm:text-base text-white font-abeeze"
+                  >
+                    Укулеле
+                  </h2>
+                  <h3
+                    class="font-normal text-2xl sm:text-3xl text-white font-abeeze"
+                  >
+                    Enya EUC-MAD
+                  </h3>
+                  <div class="flex items-center justify-between w-full mt-4">
+                    <div>
+                      <h2
+                        class="font-normal text-sm sm:text-base text-[rgba(255,255,255,0.6)] font-abeeze line-through"
+                      >
+                        ₽24 890
+                      </h2>
+                      <h2
+                        class="font-normal text-lg sm:text-xl text-white font-abeeze"
+                      >
+                        ₽24 890
+                      </h2>
+                    </div>
+                    <div class="flex flex-col items-center gap-1">
+                      <h2 class="text-yellow-400">★★★★★</h2>
+                      <h3
+                        class="font-normal text-sm sm:text-base text-center text-[rgba(255,255,255,0.6)] font-abeeze"
+                      >
+                        7 отзывов
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="min-w-[220px] sm:min-w-[240px] md:min-w-[260px] rounded-lg overflow-hidden relative flex flex-col mx-2"
+            >
+              <div
+                class="absolute bottom-0 left-0 w-full h-[60%] bg-[#3b3a40] z-0"
+              ></div>
+              <div class="relative z-10 flex flex-col items-start">
+                <img
+                  src="./images/1.svg"
+                  alt="Enya EUC-MAD"
+                  class="w-full object-cover h-auto"
+                />
+                <div class="p-4 w-full">
+                  <h2
+                    class="font-normal text-sm sm:text-base text-white font-abeeze"
+                  >
+                    Укулеле
+                  </h2>
+                  <h3
+                    class="font-normal text-2xl sm:text-3xl text-white font-abeeze"
+                  >
+                    Enya EUC-MAD
+                  </h3>
+                  <div class="flex items-center justify-between w-full mt-4">
+                    <div>
+                      <h2
+                        class="font-normal text-sm sm:text-base text-[rgba(255,255,255,0.6)] font-abeeze line-through"
+                      >
+                        ₽24 890
+                      </h2>
+                      <h2
+                        class="font-normal text-lg sm:text-xl text-white font-abeeze"
+                      >
+                        ₽24 890
+                      </h2>
+                    </div>
+                    <div class="flex flex-col items-center gap-1">
+                      <h2 class="text-yellow-400">★★★★★</h2>
+                      <h3
+                        class="font-normal text-sm sm:text-base text-center text-[rgba(255,255,255,0.6)] font-abeeze"
+                      >
+                        7 отзывов
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="min-w-[220px] sm:min-w-[240px] md:min-w-[260px] rounded-lg overflow-hidden relative flex flex-col mx-2"
+            >
+              <div
+                class="absolute bottom-0 left-0 w-full h-[60%] bg-[#3b3a40] z-0"
+              ></div>
+              <div class="relative z-10 flex flex-col items-start">
+                <img
+                  src="./images/1.svg"
+                  alt="Enya EUC-MAD"
+                  class="w-full object-cover h-auto"
+                />
+                <div class="p-4 w-full">
+                  <h2
+                    class="font-normal text-sm sm:text-base text-white font-abeeze"
+                  >
+                    Укулеле
+                  </h2>
+                  <h3
+                    class="font-normal text-2xl sm:text-3xl text-white font-abeeze"
+                  >
+                    Enya EUC-MAD
+                  </h3>
+                  <div class="flex items-center justify-between w-full mt-4">
+                    <div>
+                      <h2
+                        class="font-normal text-sm sm:text-base text-[rgba(255,255,255,0.6)] font-abeeze line-through"
+                      >
+                        ₽24 890
+                      </h2>
+                      <h2
+                        class="font-normal text-lg sm:text-xl text-white font-abeeze"
+                      >
+                        ₽24 890
+                      </h2>
+                    </div>
+                    <div class="flex flex-col items-center gap-1">
+                      <h2 class="text-yellow-400">★★★★★</h2>
+                      <h3
+                        class="font-normal text-sm sm:text-base text-center text-[rgba(255,255,255,0.6)] font-abeeze"
+                      >
+                        7 отзывов
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="min-w-[220px] sm:min-w-[240px] md:min-w-[260px] rounded-lg overflow-hidden relative flex flex-col mx-2"
+            >
+              <div
+                class="absolute bottom-0 left-0 w-full h-[60%] bg-[#3b3a40] z-0"
+              ></div>
+              <div class="relative z-10 flex flex-col items-start">
+                <img
+                  src="./images/1.svg"
+                  alt="Enya EUC-MAD"
+                  class="w-full object-cover h-auto"
+                />
+                <div class="p-4 w-full">
+                  <h2
+                    class="font-normal text-sm sm:text-base text-white font-abeeze"
+                  >
+                    Укулеле
+                  </h2>
+                  <h3
+                    class="font-normal text-2xl sm:text-3xl text-white font-abeeze"
+                  >
+                    Enya EUC-MAD
+                  </h3>
+                  <div class="flex items-center justify-between w-full mt-4">
+                    <div>
+                      <h2
+                        class="font-normal text-sm sm:text-base text-[rgba(255,255,255,0.6)] font-abeeze line-through"
+                      >
+                        ₽24 890
+                      </h2>
+                      <h2
+                        class="font-normal text-lg sm:text-xl text-white font-abeeze"
+                      >
+                        ₽24 890
+                      </h2>
+                    </div>
+                    <div class="flex flex-col items-center gap-1">
+                      <h2 class="text-yellow-400">★★★★★</h2>
+                      <h3
+                        class="font-normal text-sm sm:text-base text-center text-[rgba(255,255,255,0.6)] font-abeeze"
+                      >
+                        7 отзывов
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="min-w-[220px] sm:min-w-[240px] md:min-w-[260px] rounded-lg overflow-hidden relative flex flex-col mx-2"
+            >
+              <div
+                class="absolute bottom-0 left-0 w-full h-[60%] bg-[#3b3a40] z-0"
+              ></div>
+              <div class="relative z-10 flex flex-col items-start">
+                <img
+                  src="./images/1.svg"
+                  alt="Enya EUC-MAD"
+                  class="w-full object-cover h-auto"
+                />
+                <div class="p-4 w-full">
+                  <h2
+                    class="font-normal text-sm sm:text-base text-white font-abeeze"
+                  >
+                    Укулеле
+                  </h2>
+                  <h3
+                    class="font-normal text-2xl sm:text-3xl text-white font-abeeze"
+                  >
+                    Enya EUC-MAD
+                  </h3>
+                  <div class="flex items-center justify-between w-full mt-4">
+                    <div>
+                      <h2
+                        class="font-normal text-sm sm:text-base text-[rgba(255,255,255,0.6)] font-abeeze line-through"
+                      >
+                        ₽24 890
+                      </h2>
+                      <h2
+                        class="font-normal text-lg sm:text-xl text-white font-abeeze"
+                      >
+                        ₽24 890
+                      </h2>
+                    </div>
+                    <div class="flex flex-col items-center gap-1">
+                      <h2 class="text-yellow-400">★★★★★</h2>
+                      <h3
+                        class="font-normal text-sm sm:text-base text-center text-[rgba(255,255,255,0.6)] font-abeeze"
+                      >
+                        7 отзывов
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="min-w-[220px] sm:min-w-[240px] md:min-w-[260px] rounded-lg overflow-hidden relative flex flex-col mx-2"
+            >
+              <div
+                class="absolute bottom-0 left-0 w-full h-[60%] bg-[#3b3a40] z-0"
+              ></div>
+              <div class="relative z-10 flex flex-col items-start">
+                <img
+                  src="./images/1.svg"
+                  alt="Enya EUC-MAD"
+                  class="w-full object-cover h-auto"
+                />
+                <div class="p-4 w-full">
+                  <h2
+                    class="font-normal text-sm sm:text-base text-white font-abeeze"
+                  >
+                    Укулеле
+                  </h2>
+                  <h3
+                    class="font-normal text-2xl sm:text-3xl text-white font-abeeze"
+                  >
+                    Enya EUC-MAD
+                  </h3>
+                  <div class="flex items-center justify-between w-full mt-4">
+                    <div>
+                      <h2
+                        class="font-normal text-sm sm:text-base text-[rgba(255,255,255,0.6)] font-abeeze line-through"
+                      >
+                        ₽24 890
+                      </h2>
+                      <h2
+                        class="font-normal text-lg sm:text-xl text-white font-abeeze"
+                      >
+                        ₽24 890
+                      </h2>
+                    </div>
+                    <div class="flex flex-col items-center gap-1">
+                      <h2 class="text-yellow-400">★★★★★</h2>
+                      <h3
+                        class="font-normal text-sm sm:text-base text-center text-[rgba(255,255,255,0.6)] font-abeeze"
+                      >
+                        7 отзывов
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="min-w-[220px] sm:min-w-[240px] md:min-w-[260px] rounded-lg overflow-hidden relative flex flex-col mx-2"
+            >
+              <div
+                class="absolute bottom-0 left-0 w-full h-[60%] bg-[#3b3a40] z-0"
+              ></div>
+              <div class="relative z-10 flex flex-col items-start">
+                <img
+                  src="./images/1.svg"
+                  alt="Enya EUC-MAD"
+                  class="w-full object-cover h-auto"
+                />
+                <div class="p-4 w-full">
+                  <h2
+                    class="font-normal text-sm sm:text-base text-white font-abeeze"
+                  >
+                    Укулеле
+                  </h2>
+                  <h3
+                    class="font-normal text-2xl sm:text-3xl text-white font-abeeze"
+                  >
+                    Enya EUC-MAD
+                  </h3>
+                  <div class="flex items-center justify-between w-full mt-4">
+                    <div>
+                      <h2
+                        class="font-normal text-sm sm:text-base text-[rgba(255,255,255,0.6)] font-abeeze line-through"
+                      >
+                        ₽24 890
+                      </h2>
+                      <h2
+                        class="font-normal text-lg sm:text-xl text-white font-abeeze"
+                      >
+                        ₽24 890
+                      </h2>
+                    </div>
+                    <div class="flex flex-col items-center gap-1">
+                      <h2 class="text-yellow-400">★★★★★</h2>
+                      <h3
+                        class="font-normal text-sm sm:text-base text-center text-[rgba(255,255,255,0.6)] font-abeeze"
+                      >
+                        7 отзывов
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="max-w-[1600px] w-full mx-auto mb-12">
+          <h2
+            class="font-normal text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-[50px] text-center text-white font-abeeze mb-6"
+          >
+            Услуги
+          </h2>
+          <div
+            class="max-w-[300px] w-full h-0 border-2 border-solid border-[#d87700] mx-auto"
+          ></div>
+          <div
+            class="grid grid-cols-1 w-max mx-auto lg:grid-cols-3 justify-center gap-[20px] mt-[40px]"
+          >
+            <div
+              class="flex items-end w-[240px] sm:w-[300px] lg:w-[260px] xl:w-[280px] h-[320px] sm:h-[399px] lg:h-[360px] xl:h-[380px] bg-[url('/images/41.svg')] bg-no-repeat bg-center bg-cover"
+            >
+              <div
+                class="flex items-center justify-center bg-[rgba(19,18,24,0.8)] w-full h-[70px] sm:h-[98px]"
+              >
+                <h2
+                  class="font-normal text-lg sm:text-2xl leading-[146%] text-center text-white font-abeeze"
+                >
+                  ОБУЧЕНИЕ
+                </h2>
+              </div>
+            </div>
+            <div
+              class="flex items-end w-[240px] sm:w-[300px] lg:w-[260px] xl:w-[280px] h-[320px] sm:h-[399px] lg:h-[360px] xl:h-[380px] bg-[url('/images/288.svg')] bg-no-repeat bg-center bg-cover"
+            >
+              <div
+                class="flex items-center justify-center bg-[rgba(19,18,24,0.8)] w-full h-[70px] sm:h-[98px]"
+              >
+                <h2
+                  class="font-normal text-base sm:text-lg leading-[167%] text-center text-[#ea8305] font-abeeze"
+                >
+                  ПОКАЗАТЬ ЕЩЁ
+                </h2>
+              </h2>
+            </div>
+            <div
+              class="flex items-end w-[240px] sm:w-[300px] lg:w-[260px] xl:w-[280px] h-[320px] sm:h-[399px] lg:h-[360px] xl:h-[380px] bg-[url('/images/226.svg')] bg-no-repeat bg-center bg-cover"
+            >
+              <div
+                class="flex items-center justify-center bg-[rgba(19,18,24,0.8)] w-full h-[70px] sm:h-[98px]"
+              >
+                <h2
+                  class="font-normal text-lg sm:text-2xl leading-[146%] text-center text-white font-abeeze"
+                >
+                  РЕМОНТ
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script>
+      const carousel = document.getElementById("carousel");
+      const slides = Array.from(carousel.children);
+      const slideWidth = 242;
+      let index = 0;
+
+      slides.forEach((slide) => {
+        const clone = slide.cloneNode(true);
+        carousel.appendChild(clone);
+      });
+
+      function nextSlide() {
+        index++;
+        carousel.style.transition = "transform 0.7s linear";
+        carousel.style.transform = `translateX(-${index * slideWidth}px)`;
+
+        if (index >= slides.length) {
+          setTimeout(() => {
+            carousel.style.transition = "none";
+            index = 0;
+            carousel.style.transform = `translateX(0px)`;
+          }, 700);
+        }
+      }
+
+      setInterval(nextSlide, 2500);
+    </script>
+  </body>
+</html>
