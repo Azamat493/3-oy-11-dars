@@ -1142,6 +1142,32 @@
     }
   }
 }
+@media (min-width: 768px) and (max-width: 870px) {
+  .card {
+    width: 360px;
+  }
+}
+@media (max-width: 1039px) {
+  .card2 {
+    display: none;
+  }
+  .card3 {
+    display: flex;
+  }
+}
+@media (min-width: 1039px) {
+  .card2 {
+    display: flex;
+  }
+  .card3 {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .card3 {
+    display: none;
+  }
+}
 @property --tw-translate-x {
   syntax: "*";
   inherits: false;

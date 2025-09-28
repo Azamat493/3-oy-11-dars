@@ -1,12 +1,8 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+module.exports = {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {
-      screens: {
-  'mid': '768px',  // от 768px и выше
-},
-    },
+    extend: {},
   },
   plugins: [],
-}
+};
