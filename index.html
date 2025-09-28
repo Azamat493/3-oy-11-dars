@@ -71,16 +71,6 @@
           display: none;
         }
       }
-      @media (max-width: 1405px) and (min-width: 1024px) {
-        .club-form {
-          right: -60px !important;
-        }
-      }
-      @media (max-width: 1235px) and (min-width: 1024px) {
-        .club-form {
-          right: -40px !important;
-        }
-      }
     </style>
   </head>
   <body class="bg-[#131218]">
@@ -1241,7 +1231,7 @@
           class="absolute inset-0 rounded-[0_150px_150px_0] bg-[rgba(216,119,0,0.6)] sm:rounded-[0_171px_171px_0]"
         ></div>
         <div
-          class="club-form absolute top-1/2 w-full max-w-[620px] -translate-y-1/2 transform bg-[#fcf7f2] rounded-[30px] p-6 shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] right-[-80px] lg:right-[-120px] xl:right-[-180px] h-auto"
+          class="club-form absolute top-1/2 w-full max-w-[620px] -translate-y-1/2 transform left-1/2 -translate-x-1/2 /* мобила <640px */ sm:left-1/2 sm:-translate-x-1/2 sm:right-auto /* 640px–952px */ lg:left-auto lg:right-[-120px] xl:right-[-180px] /* >952px */ bg-[#fcf7f2] rounded-[30px] p-6 shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] h-auto"
         >
           <div
             class="font-doppio text-center text-base font-normal text-[#3b3a40] sm:text-lg"
